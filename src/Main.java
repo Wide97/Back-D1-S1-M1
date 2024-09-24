@@ -1,6 +1,7 @@
 import ElseIf.ElseIf;
+import ForExample.ForExample;
 import Switch.Switch;
-
+import While.WhileExample;
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +23,17 @@ public class Main {
 
         intero.eseguiSwitch(numero);
 
+        System.out.print("Inserisci un numero: ");
+        int cifra = scanner.nextInt();
+
+        // Crea un'istanza di ForExample
+        ForExample forExample = new ForExample();
+        forExample.number(cifra);
+
+
+
         scanner.close();
+
 
 
     }
