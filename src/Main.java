@@ -7,5 +7,9 @@ public class Main {
         PariDispari.elseif(22);
         PariDispari.elseif(45);
 
+        PariDispari.AnnoBisestile(2000);
+        PariDispari.AnnoBisestile(1945);
+
+
     }
 }
